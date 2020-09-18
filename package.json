@@ -1,0 +1,25 @@
+{
+  "name": "guia-hoteles",
+  "version": "1.0.0",
+  "description": "Primer proyecto Nodejs",
+  "main": "index.html",
+  "dependencies": {
+    "popper.js": "^1.16.1",
+    "jquery": "^3.5.1",
+    "bootstrap": "^4.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabif94/guia-hoteles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabif94/guia-hoteles/issues"
+  },
+  "homepage": "https://github.com/gabif94/guia-hoteles#readme"
+}
