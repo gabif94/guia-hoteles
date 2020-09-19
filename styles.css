@@ -1,0 +1,17 @@
+body {
+    width: auto;
+    padding: auto;
+    background-color: #E2CFA5;
+}
+
+footer {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    padding: 20px 20px 20px 20px;
+    background-color: #EBB095;
+}
+
+.card-hotel {
+    flex: 1 150px;
+    padding: 5px 20px 5px 5px;
+}
