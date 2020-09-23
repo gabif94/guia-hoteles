@@ -137,7 +137,7 @@
                     <h4 class="card-title">Hotel Santiago de Chile</h4>
                     <p class="card-subtitle text-muted">Chile</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. ium iure laboriosam ab.</p>
-                    <button type="button" class="btn btn-primary btn-reserva" data-toggle="modal" data-target="#contacto">Contacto</button>
+                    <button type="button" class="btn btn-primary btn-reserva" data-toggle="modal" data-target="#contacto" id="contactoBtn">Contacto</button>
 
                 </div>
                 <div>
@@ -212,6 +212,14 @@
     <script src="node_modules/jquery/dist/jquery.min.js" crossorigin="anonymous"></script>
     <script src="node_modules/popper.js/dist/popper.min.js" crossorigin="anonymous"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <script>
+        $(function() {
+            $('#contacto').on('show.bs.modal', function(e) {
+                console.log('el modal se está mostrando.');
+            })
+        })
+    </script>
 </body>
 
 </html>
